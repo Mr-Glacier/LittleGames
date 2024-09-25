@@ -1,0 +1,19 @@
+{
+  "Parameter": [
+    {
+      "DBDriver": "com.mysql.cj.jdbc.Driver",
+      "DBConnectionStr": "jdbc:mysql://localhost:3306/",
+      "DBName": "snake",
+      "DBUserName": "root",
+      "DBUserPass": "7777",
+      "EntityPath": "com.glacier.snake.entity.",
+      "EntityList": [
+        {
+          "EntityName": "OnlineUser",
+          "PrimaryKey": "id",
+          "TableName": "online_user"
+        }
+      ]
+    }
+  ]
+}
